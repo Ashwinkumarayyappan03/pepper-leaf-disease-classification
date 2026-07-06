@@ -1,0 +1,35 @@
+# ── Layer: Presentation (API) ──────────────────────────────────────────────
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+python-multipart==0.0.9
+
+# ── Layer: Validation (Schemas) ────────────────────────────────────────────
+pydantic==2.7.4
+pydantic-settings==2.3.4
+email-validator==2.2.0
+
+# ── Layer: Security / Auth ─────────────────────────────────────────────────
+passlib==1.7.4
+bcrypt==4.0.1
+python-jose[cryptography]==3.3.0
+
+# ── Layer: Persistence (DB) ─────────────────────────────────────────────────
+sqlalchemy==2.0.30
+alembic==1.13.2
+psycopg2-binary==2.9.9
+
+# ── Layer: ML / Inference ───────────────────────────────────────────────────
+tensorflow==2.16.1
+pillow==10.3.0
+opencv-python-headless==4.9.0.80
+numpy==1.26.4
+scikit-learn==1.5.0
+
+# ── Layer: External integrations ─────────────────────────────────────────────
+anthropic==0.29.0
+httpx==0.27.0
+
+# ── Testing ──────────────────────────────────────────────────────────────────
+pytest==8.2.2
+pytest-asyncio==0.23.7
+structlog
